@@ -1,14 +1,11 @@
 @import "fonts";
-
 body {
-    height: 1000px;
-    span {
-        color: rgb(24, 206, 106);
-    }
-    font-family: Lato;
-    font-size: 17px;
+    background-color: #da4548;
 }
-main {
-    height: 1000px;
-    // background: url("@img/a17601b0-aad9-4b1e-8cf4-1bb7b0899a8b.jpg");
+.hello {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: SF;
+    transform: translateX(-50%);
 }
